@@ -1,0 +1,10 @@
+answer 3: Abstrat methods are thos that must be implemented by a subclass, while concrete methods are thos that can bve impletmented as is. An interface is a type 
+of abstract
+
+Abstrarct class cannot be instantiated , cannot be implemented by a class, abstract class are typically used to define the interface 
+it can obtain from the abstract and concrete
+by abstract we got partially unimplemented structure
+and bys interface we get 100 % unimplemented structure.
+
+
+

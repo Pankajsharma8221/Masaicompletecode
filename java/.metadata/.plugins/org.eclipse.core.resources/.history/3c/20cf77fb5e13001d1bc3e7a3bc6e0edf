@@ -1,0 +1,32 @@
+package com.lion;
+
+public class Q3 {
+	int roll;
+	String name;
+	int marks;
+	void displayStudentDetails() {
+		System.out.println("Roll is : "+roll);
+		System.out.println("Name is : "+name);
+		System.out.println("Marks is : "+marks);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Q3 first = new Q3();
+				first.roll=22;
+				first.name="Pankaj";
+				first.marks=22;
+				
+				first.displayStudentDetails();
+				
+				
+				Q3 second = new Q3();
+				second.roll=22;
+				second.name="Pankaj";
+				second.marks=22;
+				
+				second.displayStudentDetails();
+
+	}
+
+}

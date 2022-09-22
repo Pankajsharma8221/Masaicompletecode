@@ -1,0 +1,12 @@
+package q3;
+
+public class X {
+	public static void main(String[] args) {
+		ThreadA ta=new ThreadA();
+		ThreadB tb=new ThreadB(ta);
+		
+		ta.start();
+		tb.start();
+		
+	}
+}

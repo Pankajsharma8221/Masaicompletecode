@@ -1,0 +1,7 @@
+difference between PriorityQueue() and Linkedlist();
+
+An unbounded priority queue on a priority heap. The elements of the priority queue are ordered according to their natural ordering, or by a comparator provided at queue construction time, depending on which constructor is used.
+as the priority queue messages in a queue based on their priority and not based on when the message entered the queue.
+
+
+the difference  between priorityqueue and linkedlist is at the time of insertion between priorityqueue and linkedlist is at time of insertion priorityqueue will be sorted as well as ordered as par the natural order but we can add a commparator also in order to define the particular order of sorting for a record, while as linkedlist will be just ordered. So while you are trying to add elements in priorityqueue, they will get sorted on the basis of their natural order or as per the comparator function.

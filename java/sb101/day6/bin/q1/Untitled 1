@@ -1,0 +1,51 @@
+Q1/ - Write down some predefined Functional interfaces in the java library at least 4
+interfaces, with their methods.
+
+
+In java 8 conteext, functional interface is an interface having exactly one abstract5 methgod called
+functional method to which athe lambda expression's parameter and return type are matched. Functional interface
+provides target type for lambda expressions and method references.
+
+
+1. predicate<T>
+java.util.function.predicate has a boolean -valud function that takes an argument
+and returns boolean value.
+
+public interface Predicate<T>{
+boolean test(T t);
+// functional descriptor
+}
+method :---
+1. and (Predicate<? super T> other)
+ 2. or(Predicate<? super T> other)
+ 3. negate();
+ 
+ 
+ 
+ 2 consumer<T>
+ java.util.function.Cosumer accepts an argument and returns no result.
+ 
+ class public inteface cosumer<T>{
+ void accept(T t);
+ }
+ 
+ Cosumer<? super T> after
+ 
+ 
+
+ 3. Function <T,T> 
+ java.util.function.function accepts an argument and returns result.
+ public interface fucntion<T,R>{
+ R.apply(T t);
+ }
+ method 
+ compose (fucntion<? super V, ? extends T> before)
+ andThen (Function <? super R, ? extends V> after)
+ static <T> function<T,T> identify()
+ 
+ 
+ 
+ 4 Supplier<T>
+ java.uti.function.supplier doesn't accept any argument but returns a result.
+ public interface Supplier<R> {
+ R.get():

@@ -1,0 +1,25 @@
+the marker interface is that we create a interface without any methos is called as interface
+
+
+
+Interface p{
+}
+
+
+
+
+public class Demo implements P{
+
+ public void show(){
+ System.out.println("hello");
+ }
+ public static void main(Stringa[] args){
+   Demo d=new Demo();
+   if(d instanceof P){
+   obj.show()
+   }else{
+   
+    syso("wrong");
+   }
+ }
+}

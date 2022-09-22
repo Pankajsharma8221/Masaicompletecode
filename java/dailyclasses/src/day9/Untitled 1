@@ -1,0 +1,49 @@
+super class ref and child class object.
+final keyword
+
+access modifier (static factory method)
+
+
+packages:-
+---------
+
+
+1. with the package, we can bind the related concept logically.
+com.masai.db
+10 : -- with interact witht the DB
+com.masai.service
+20 : -- in which we define business logic to process the data
+com.masai.presentation
+20: in which we define the presentation logic.
+
+in java api we have so many predefined classes and interfaces are there.
+they are also categoreised in diff packages.
+
+
+java.lang : it contains all the common classes
+java.io.package : contains all the classes and interface which are required to perform i/o operations
+
+java.sql.package is for jdbc database management system
+
+
+java.util package for utility..
+java.net package: for creating network base package
+
+
+
+
+2. with the helfp of packatge we can agoid th naming conflict using the package
+
+
+String
+java.lang.String-- fullyt qualified name
+
+
+
+3. to porvid some level of security, by using access modfier;
+default access modifier : outsid the packeage we cannot access protected access modfifeir" outside the package we can access inheritance.
+
+
+Note*** in realitime we should noe define a class , interface without pacakge.
+
+when we keep any classes inside anyh packatge, then we can compile that class by folowing

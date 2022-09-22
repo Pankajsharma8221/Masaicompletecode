@@ -1,0 +1,6 @@
+Autoboxing and unboxing in java
+
+in java, primitive data types are treated differentaly so do there come the introduction of wrapper vclasses
+ where tow components play a role namely autoboxing and unboxing. Autoboxing refers to the conversion of a primitve value into an object of the corresponding wrapper class is called autoboxing.
+ for example convert int into the Integer.
+ and unbosxing on the other hadn refers to converiting an object of wrapper type to its corresponding primitive value.

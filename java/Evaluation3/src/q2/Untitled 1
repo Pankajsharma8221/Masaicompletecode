@@ -1,0 +1,8 @@
+Answer 2 Early binding- The normal method calls and overloaded method calls are the example of the early binding.
+the binding which can be resolved at compile time by the compilor is known as early binding. the binding of 
+all static , private and final methods is done at compile time is the example of the early binding
+
+
+
+Late binding in the late binding or dynamic binding, the compilor doesn't decide the method to be called. Overriding of the method like the toString method we use 
+when we take method of public String toString(); and the method of built in are override is the example of the late binding.

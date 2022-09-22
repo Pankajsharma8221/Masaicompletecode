@@ -1,0 +1,7 @@
+difference between upper bound and lower bound wildcard
+
+The upper bounded wildcards section shows that an upper bounded sildcard restricts the unknown type of specific type or a subtype of that type and is represented using the extends kyword. IN a similar way, a lower bounded 4restricts the unknown type to be a specific type or a uper type of that type.
+
+by lower bound is List<? super Integer> that mean it will access uppr to this.
+
+by upper bound wildcard is Lis<? extends Number> list it mean it acces sub class of this Number like int double

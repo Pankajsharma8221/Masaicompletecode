@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.TreeSet"/><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayDeque"/><rhs name\="java.util.LinkedHashSet"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.TreeSet"/><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayDeque"/><rhs name\="java.util.LinkedHashSet"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.TreeSet"/><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.TreeSet"/><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.NavigableSet"><rhs name\="java.util.TreeSet"/></lhs><lhs name\="java.util.SortedSet"><rhs name\="java.util.TreeSet"/></lhs><lhs name\="java.util.Set"><rhs name\="java.util.TreeSet"/><rhs name\="java.util.HashSet"/></lhs><lhs name\="java.util.AbstractSet"><rhs name\="java.util.TreeSet"/><rhs name\="java.util.HashSet"/></lhs><lhs name\="java.util.TreeSet"><rhs name\="java.util.TreeSet"/></lhs><lhs name\="java.util.HashSet"><rhs name\="java.util.HashSet"/></lhs></history>
+content_assist_number_of_computers=15
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

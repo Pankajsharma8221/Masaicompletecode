@@ -1,0 +1,5 @@
+Q6) What if we call Java run() method directly instead start() method?
+
+
+if run() method is called directly instead of start() method in java code, run() method will be treated as normal overrident method of the thread calss(or runnable interface). This method will be executed with in the context of the current thread not a in a new thread.
+it is the start() method that spawns a new thread and schedules the thread with the JVM. The JVM will let the newy spawned thread execute run() method when the resrources and CPU are ready. so not calllin the start method and directly calling the run() method will mean a new thread object is not created and run() method will run as a normal overiden method.

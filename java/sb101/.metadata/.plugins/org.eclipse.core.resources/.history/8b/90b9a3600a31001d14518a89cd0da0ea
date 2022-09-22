@@ -1,0 +1,21 @@
+package q2;
+import java.util.*;
+
+public class City {
+public static void main(String[] args) {
+	
+
+
+	
+	List<String> l=new ArrayList<>();
+	l.add("Chennai");
+	l.add("Delhi");
+	l.add("Mumbai");
+	l.add("Banglore");
+	
+	
+	
+	
+}
+
+}

@@ -1,0 +1,8 @@
+package practice;
+
+public class Authentification {
+void checkbalance(){
+	
+}
+
+}

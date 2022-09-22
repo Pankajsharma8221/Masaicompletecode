@@ -1,0 +1,79 @@
+checked exception is like that those exception checked at compile time
+is checked exception like classnotfound and filenotfound
+unchecked exception are thos which telll us while runtime that type of exception is
+happend when we need logic to pu that ogive unchecked exception
+the excption are found only runtime but compiler check that exception that time.
+
+package com.masai;
+
+public class Demo{
+	
+	
+	
+	public int getPension(int age, int salary) {
+		
+		int pension = 0;
+		
+		if(age > 40 && age < 100)
+			pension = (age * salary)/100;
+		else {
+			
+			
+			
+			ArithmeticException ae = new ArithmeticException("Invalid Age :" + age);
+			throw ae;
+			
+		//this exception is generated based on logical error occurs due to the business logic violation	
+			
+		}
+		
+		
+		
+		
+		
+		
+		return pension;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.println("inside main of Demo");
+		
+		
+		Demo d1= new Demo();
+		
+		try {
+		int result= d1.getPension(60, 50000);
+		
+		
+		System.out.println(result);
+		}catch (ArithmeticException ae) {
+			System.out.println(ae.getMessage());
+		}
+			
+			
+			
+		
+		System.out.println("end of main...");
+		
+	}
+	
+}
+
+that is the example of unchecked exception
+
+
+classNotFound is the example of checked exception
+
+

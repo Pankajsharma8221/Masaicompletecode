@@ -1,0 +1,26 @@
+package practice;
+
+public class A {
+	
+	String name;
+	int accno;
+	double balance;
+	 void deposit(int amt){
+	  balance=balance+amt;
+	}
+	 void withdraw(int amt) {
+		 balance=balance-amt;
+	 }
+	 
+	void checkbalance(){
+		 
+	 }
+	void transferAmount() {}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+Ans1: The java platform is independent the java-compiled code can run all over the operating systems. because it contains its own Java
+development kit's virtual machine which will easily run all operating systems like mac/Linux/window.Java is platform-independent because it uses a virtual machine.
+ The Java programming language and all APIs are compiled into bytecodes. Bytecodes are effectively platform-independent.
+ The virtual machine takes care of the differences between the bytecodes for the different platforms.
+ and there are various reasons for the independency of java when we execute that code the java file converts into the
+ classes after converting into class it will execute in any operating systm
+ 
+ Ans3:  package com.month;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a =64;
+int b=70;
+byte c=(byte)(a+b);
+System.out.println(c);  
+	}
+
+}
+here  it is because its range is between -128 to -127 firt we add the both of value after that we subtract that from the 128 after that we got 6 after getting 6 we add that value in -127 it becomes -122

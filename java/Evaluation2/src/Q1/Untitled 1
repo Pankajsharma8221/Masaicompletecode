@@ -1,0 +1,25 @@
+ Ans a-The string is immutabe in java because of the security ,synchronization and concurrecy, caching, and class loading.
+In mutablility we cannot change the object itself, but we can change the reference of the object. We also use String buffer and
+String builder class 
+
+
+Stringbuffer:- 1. Stringbufffer is synchronized i.e. thread safe. It means two threads can't call teh methods of Stringbuffer.
+ 2. it is less efficent high secure the time taken by this is more then string builder.
+ 
+ 
+ StringBuilder : non- synchronized and not thread safe. Two threads call the methods of Stringbuffer.
+ More efficient.
+ 
+ 
+ 
+ 
+ 
+ Ans b: There is the difference that == compare the reference and equal compare the content
+ and == is operator and .equals is object to mark equality.
+ 
+ 
+   code snippet-1
+ here is the first snippet givin us true both of them creating new object but when we use .equals() it compare the content of both them the content is similar so it is true.
+ 
+ code snippet 2
+

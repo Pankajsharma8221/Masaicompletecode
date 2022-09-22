@@ -1,0 +1,100 @@
+Q1/- Explain the meaning of the deadlock in a multithreaded application, when it can occur in
+multithreading applications. Write one example of deadlock.
+
+
+
+Deadlock in java multithreading synchronized keyword is used to make the class or method thread-safe which means 
+only one thread can have a lock of synchronized method  and use it, other threads have to wait till the lock releases and anyone
+ of them acquire that lock. It is important  to use if our program is running in multi-threaded environment where two or more threads
+  execute simultaneously. But sometimes it also causes a problem which is called deadlock.
+  
+  
+ A lock without key is nothing but deadlock.
+If two synchronized threads are waiting for each other forever(for infinite time).The synchronized keyword is the only reason for deadlock.
+There is no any solution for the deadlock but there are several prevention is there 
+
+
+
+here is the class a which execute the functiona
+
+   class A {
+   
+public synchronized void funa(B b1){
+
+System.out.println("funa of A starts");
+
+b1.fun2();
+System.out.println("funa of A ends");
+}
+public synchronized void fun1(){
+System.out.println("inside fun1 of A");
+}
+
+
+here is function of b
+   
+   
+   class B {
+   
+public synchronized void funb(A a1){
+
+System.out.println("funb of B starts");
+
+a1.fun1();
+System.out.println("funb of B ends");
+
+}
+public synchronized void fun2(){
+System.out.println("inside fun2 of B");
+}
+}
+
+here we implement the thread a
+class ThreadA extends Thread{
+A a1;
+B b1;
+public ThreadA(A a1,B b1) {
+this.b1=b1;
+this.a1=a1;
+}
+@Override
+public void run() {
+a1.funa(b1);
+}
+}
+here we implemented thread b
+
+class ThreadB extends Thread{
+A a1;
+B b1;
+public ThreadB(A a1,B b1) {
+this.b1=b1;
+this.a1=a1;
+
+}
+@Override
+public void run() {
+b1.funb(a1);
+}
+}
+
+
+Here is the main method where we execute the thread in main method
+
+
+class Main {
+
+
+public static void main(String[] args) {
+
+A a1 = new A();
+B b1 = new B();
+
+ThreadA t1 = new ThreadA(a1, b1);
+
+ThreadB t2 = new ThreadB(a1, b1);
+
+t1.start();
+t2.start();
+}
+}

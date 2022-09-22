@@ -1,0 +1,24 @@
+arrays are linear data structures providing functionality to add elements in a continuous manner in memory address space whereas ArrayList is a class belonging to the Collection framework. Being a good programmer one is already aware of using ArrayList over arrays despite knowing the differences between these two. Now moving ahead even with ArrayList there comes a functionality to pass the type of datatype of elements that are supposed to be stored in the ArrayList be it an object, string, integer, double, float, etc. 
+In Java, the following are two different ways to create an array. 
+
+Simple fixed-sized arrays
+Dynamically sized arrays
+int arr[] = new int[10]   
+
+
+
+
+Arraylist<Type> al = new ArrayList<Type> ;
+// Here Type is the type of elements in ArrayList to be created
+
+
+  ArrayList<Integer> arrL = new ArrayList<Integer>(2);
+ 
+        // Adding elements to ArrayList
+        // using add() method
+        arrL.add(1);
+        arrL.add(2);
+ 
+        // Printing alongside accessing
+        // elements of ArrayList
+        System.out.println(arrL.get(0));

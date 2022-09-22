@@ -1,0 +1,51 @@
+package com.lion;
+
+public class Lion {
+
+String name;
+boolean isHungary;
+int age;
+ static int totalDeath;
+
+
+ void thinking() {
+	 if(isHungary == false){
+         System.out.println(name+" is sleeping");
+     } else if (isHungary == true && age > 12) {
+         totalDeath += 2;
+         System.out.println(name+" has eaten two animal");
+     } else if ((isHungary == true) && (age >= 2 || age <= 12 )) {
+         totalDeath += 1;
+         System.out.println(name+" has eaten one animal");
+     } else if (isHungary == true || age <=2) {
+         System.out.println(name + " is Calling Mom");
+     }
+
+ }
+ static void printKillings() {
+	 System.out.println("Total killings by lions in jungle ="+totalDeath);
+ }
+
+public static void main(String[] args) {
+	Lion l1 =new Lion();
+	l1.name="Lion1";
+	l1.isHungary=true;
+	   l1.age = 13;
+       l1.thinking();
+
+        Lion l2 = new Lion();
+        l2.name = "Lion2";
+        l2.isHungary = true;
+        l2.age = 6;
+        l2.thinking();
+
+
+        Lion l3 = new Lion();
+        l3.name = "Lion3";
+        l3.isHungary = false;
+        l3.age = 6;
+        l3.thinking();
+}
+
+
+}

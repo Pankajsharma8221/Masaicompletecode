@@ -1,0 +1,22 @@
+Q3) Differentiate between process and thread.
+
+process means any program is in execution.the process takes more time to terminate.
+it takes mroe time for creation . it also take smroe tiem for contect switching
+the process is isolated. the prcess is caled the heavyweight process.
+process switching uses an interface in an operating system. if one process is blocked then it will not affect the execution
+of other precess. the process has its own process contgrol block, stack, and address space.
+changes to the parent process do not affect child process.
+
+thread means a segment of a process. the thread takes leass time to terminate. it takes less time for creation.
+It takes less time for creation.
+	It takes less time for context switching.
+	Thread is more efficient in terms of communication.
+	We don’t need multi programs in action for multiple threads because a single process consists of multiple threads.
+	Threads share memory.
+	A Thread is lightweight as each thread in a process shares code, data, and resources.
+	Thread switching does not require calling an operating system and causes an interrupt to the kernel.
+	If a user-level thread is blocked, then all other user-level threads are blocked. 
+	Thread has Parents’ PCB, its own Thread Control Block, and Stack and common Address space.
+	Since all threads of the same process share address space and other resources so any changes to the main thread may affect the behavior of the other threads of the process.
+	No system call is involved, it is created using APIs.
+	Threads share data with each other.

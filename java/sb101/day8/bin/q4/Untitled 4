@@ -1,0 +1,24 @@
+Q4) What are the different states of a thread, or what is thread lifecycle?
+
+New Thread: when a new thread is created, it is in the new state. The thread has not yet started to run when the thread is in this state. When a thread lies in the new state, its code is yet to be run an hasn't started to execute.
+
+Runnable state: A thread that is redady to run is moved to runnable state. IN this state, a thread might actually be running or it might be rready to run at any instant of tme.
+It is the responsiblity of the thread schedhuler to give the thread, time to run. A multi-threaded program allocates a fixed amount of time to eeach individuals thread. Each and every thread runs for a shot while and then pauses and relinquishes
+ the CPU to anothr thread so that other threads can get a chance to run. When this happens, all such thread that are ready to run, wzaiting for the CPU and the currenctly running thread lie in a runnable state.
+ 
+ Block/ Waiting state: When a thread is temporarily inactive , then it's in one of the following states:
+ > BLOCKED
+ >WAITING
+ Time waiting: A thread lies in a timed waiting state when it calls a method with atime-out parameter. A thread lies in this state until the timout is completexd or until a notification is recieved. For example when a thread calls sleep or  a consitional wait, it is moved to a timed waiting state.
+ 
+ Terminated State: A thread terminates because of either of the following reasons.:
+ > Beacuse it exits normally. this happens when the code of the thread has been entiredly executed by the program.
+ > Because there ocfures soem unusual erroneous event, like segmentation fault or an unhandled exception.
+ 
+ 
+ Declaration: public static final Thread.State NEW
+ Declaration: public static final Thread.State RUNNABLE
+ Declaration: public static final Thread.State BLOCKED
+ Declaration: public static final Thread.State WAITING
+ Declaration: public static final Thread.State TIMED_WAITING
+ Declaration: public static final Thread.State TERMINATED

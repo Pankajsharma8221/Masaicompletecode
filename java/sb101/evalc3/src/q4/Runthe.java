@@ -1,0 +1,30 @@
+package q4;
+
+import java.util.Iterator;
+
+public class Runthe extends Thread{
+
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		String tname=Thread.currentThread().getName();
+		if(tname=="Virat Kohli") {
+			for(int a=1;a<=10;a++) {
+				System.out.println(tname+" count "+a);
+			}
+		}else if(tname=="M.S. Dhoni"){
+			int s=0;
+			for(int b=1;b<=20;b++){
+				s=s+b;
+			}
+			System.out.println(tname+" additon is "+s);
+		}else {
+			int pro=1;
+			for(int x=1;x<=10;x++) {
+				pro=pro*x;
+			}
+			System.out.println(tname+" product "+pro);
+		}
+	}
+}

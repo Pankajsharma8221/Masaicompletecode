@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;day4/src/q2/Untitled 1&apos; to &apos;checkuncheck&apos;" description="Rename resource &apos;Untitled 1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/q2/Untitled 1" name="checkuncheck" stamp="1662573657393" updateReferences="true"/>
+</session>

@@ -1,0 +1,24 @@
+package q4;
+
+public class Main {
+
+	
+	public static void main(String[] args) {
+		Runthe t=new Runthe();
+		Thread t1= new Thread(t);
+		Thread t2= new Thread(t);
+		Thread t3= new Thread(t);
+		
+		t2.setPriority(10);
+		t1.setName("Virat Kohli");
+		t2.setName("M.S. Dhoni");
+		t3.setName("Rohit Sharma");
+		
+		
+		t1.start();
+		t2.start();
+		t3.start();
+		
+		
+	}
+}

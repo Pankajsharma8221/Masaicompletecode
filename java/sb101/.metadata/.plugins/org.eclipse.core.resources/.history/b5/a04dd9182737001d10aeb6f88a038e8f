@@ -1,0 +1,15 @@
+package q7;
+
+public class ThreadA implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for(int a=0;a<10;a++) {
+			String tname=Thread.currentThread().getName();
+			System.out.println(tname);
+		}
+		
+	}
+
+}

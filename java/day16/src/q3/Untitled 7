@@ -1,0 +1,54 @@
+differnce between comparable and compartor
+
+public class Laptop implements comparable<Laptop> {
+
+private String brand;
+private int ram.
+privat int price;
+
+make there getter and setter and String method
+also create the compareto method with override
+an acces all the lap by using this
+like if(this.getram()>lap2.getram()) return 1;
+else(this.getram()<lap2.getram()) return -1;
+}
+
+
+go int runner page
+
+in main 
+Listy<Laptop> laps=new ArraayList<>();
+laps.add(new laptop("Dell",16,899));
+laps.add(new laptop("Apple",8,899));
+laps.add(new laptop("asus",12,899));
+
+
+after then sot the laptop 
+
+like 
+Collection.sort(laps);
+for(laptop l: laps){
+
+ system.out.println(l)
+}
+
+here upto comparator
+
+
+
+now comprate
+
+here we create a interface and here specify the ligic here
+it is used for multiple sorting technique
+
+Comparatot<Laptop> com =new comprator<Laptop>(){
+
+public int compare(latop l1,laptop l2){
+
+if(l1.getPrice()>l2.getprice()){
+return 1;
+}else{
+return -1;
+}
+}
+}

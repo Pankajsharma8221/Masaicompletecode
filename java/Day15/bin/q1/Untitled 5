@@ -1,0 +1,8 @@
+An array is a collection of items stored at contiguous memory locations.The idea is to store multiple items The idea is to srore multipe items of the same tyupe together. However, the limitation of array is predefined and fixed.There are multple way to solve this problem . IN this article , the difference between tow classes that are implemented to solve this problem named ArrayList and Linkedlist.
+
+
+ArrayList it is a part of collection framework.. It is prewsent in the java.util package and provides us dynamic arrays in Java. Though, it may be slower than standard array but can be helful in programs where lots of manipular in the arry is needed. We can dynamically add and remove items.
+It is automatically resizes itself.
+
+
+Linkedlist is linear data structure where the element are not stored in contiguous locations and every element is a separate object with a data part and address part. The elements are linked using the pointers and address. Each elements are known as node. Due to the dynamicity and ease of inseration and deletions, they are predefined over the arrays.

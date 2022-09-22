@@ -1,0 +1,14 @@
+package q2;
+
+public class X {
+
+	public static void main(String[] args)throws InterruptedException {
+		
+		Product p=new Product();
+		p.start();
+		synchronized(p) {
+			p.wait();
+		}
+		System.out.println(p.p);
+	}
+}

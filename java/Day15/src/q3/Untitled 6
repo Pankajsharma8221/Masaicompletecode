@@ -1,0 +1,10 @@
+differnce between equals and hashcode methods.
+
+
+
+the equals() and hashcoe() methos prove to be very important, when object implementing these two methods are added to collections. 
+
+
+equals() this method checks if some other object passed to it as an argument is equal the object in which this methos is invoked. it is eay to implement the equals() method incorrectly, 
+
+hashcode() this method returns a hashcode() value as an integer and is supported fo the benefit of hashin based java.util,collection clases like hastablem hasmap

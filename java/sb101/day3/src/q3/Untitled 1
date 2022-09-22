@@ -1,0 +1,24 @@
+) What is exception handling in java, Write the hierarchy of Exception class and, Mention some
+of the predefined Exception classes at least 5, and the reason when those exception class
+object is generated in our application.
+
+
+exception is like termination of the application with normal termination.normal termination is execution of main method.
+
+there some logical error this are this 
+java.lang.ArithmeticException. this come when there mathematical operation fail.
+java.lang.NullPointerException.if the null value come 
+java.lang.ClassCastException.-- there are so many chance for this not  downcasting and upcasting properly. 
+java/lang.ArrayOutofBoundException. if the array length is less than the the array index.
+
+           Object
+             |
+           Throwable
+ ------------------------------------------
+ |                                         |
+ Exception                               Error      
+ | 
+ RuntimeException
+ 
+ 
+ 

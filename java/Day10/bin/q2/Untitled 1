@@ -1,0 +1,18 @@
+q2 this is used to invoke the constructor, methods, static members of t5he current class.
+super is the reserved keyword in java that is used to invoke constructor, methods of the parent class. This is possible only when one class inherits another class
+
+
+example of this keyword
+class Code{
+    int var;
+    void method(int var){
+        this.var = var;
+    }
+}
+
+it can be passed as an argument in the method call.
+it can be used to return the current class instances.
+It refers to an instance veriable and static variable of the current class
+it can be passed as an argument in the constructor call.
+It is used to initiative a constructor call.
+It is ued to initiate a constructor of the current class.

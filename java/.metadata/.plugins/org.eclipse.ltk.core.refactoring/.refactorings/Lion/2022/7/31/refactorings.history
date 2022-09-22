@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.lion.Multithreading.java&apos; to &apos;demo.java&apos;&#x0D;&#x0A;- Original project: &apos;Lion&apos;&#x0D;&#x0A;- Original element: &apos;com.lion.Multithreading.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.lion.demo.java&apos;" description="Rename compilation unit &apos;Multithreading.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.lion{Multithreading.java" name="demo.java" references="false" stamp="1659190968139" version="1.0"/>
+</session>

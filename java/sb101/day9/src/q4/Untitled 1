@@ -1,0 +1,9 @@
+Q4/- What is a Race condition, How will you solve the Race condition,explain with an
+Example.
+
+
+A race condition is an undesirable situation that occur5ss when a devic or system attempts to perform two or more operations at the same time, but because of the nature of the device or system, the operations must be done in the proper sequence to be done correctly.
+
+Race conditon are most commonly associated with computer science and porgramming.; The occur when two computer program processes , or threads, attempt to access the same resource at the same time and cause problem in the system
+
+A simple example of a race condtion is a light switch, in some homes, there are multiple light switches connected to a common  ceiling light. When these types of circuit are used , the switch position becomes irrevelent. If the light is on, moving either swithc from its current postion turns the light off. Similarly, if the light is ofrf, hthen movin tg either switch from its current postion turns the light on.

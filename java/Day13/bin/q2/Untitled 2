@@ -1,0 +1,7 @@
+why multiple inheritance is not supported in java
+
+whenever a sub class want to inherit the property of two or more suyper classes that some method, java compiler can't decide which class methos it should inherit.
+
+then thier meight be a chance of memory dublication that is reson java doesn't support mulitple inheritance throught classes.
+
+ 

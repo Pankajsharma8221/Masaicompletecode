@@ -1,0 +1,81 @@
+Q5/- What is the Difference between the sleep and join method?
+
+
+sleep() method 
+this method causes the currently executing  thread to sleep fo the specified number of miliseconds, subject to the precision and accuracy of system timer and schedulers.
+
+Syntax
+import java.lang.*;
+  
+public class SleepD implements Runnable {
+    Thread t;
+    public void run()
+    {
+        for (int i = 0; i < 4; i++) {
+            System.out.println(
+                Thread.currentThread().getName() + "  "
+                + i);
+            try {
+                // thread to sleep for 1000 milliseconds
+                Thread.sleep(1000);
+            }
+  
+            catch (Exception e) {
+                System.out.println(e);
+            }
+        }
+    }
+  
+    public static void main(String[] args) throws Exception
+    {
+        Thread t = new Thread(new SleepDemo());
+  
+        // call run() function
+        t.start();
+  
+        Thread t2 = new Thread(new SleepDemo());
+  
+        // call run() function
+        t2.start();
+    }
+}
+
+based on the rquriement we can make a th4read to be in  a sleepingt styate for a specified period of time.
+Sleep() causes the thread to defineitly stop executing for a given amount of time; if no other thread or process needs to be run , the CPU 
+will be idle ( and probbably enter a power-saving mode).
+
+
+join() method 
+the join method of a thread instance is used to join the start of thread's execution to the end of another thread's execution such that a thread does not start running until another thread ends.
+if join() is called on a thread instance, the currently runing thread will block until the thread isntance has finished executing. The join () method wait at most this many miliseconds fo this thread to die. A timout of 0 means to wait forever.
+import java.lang.*;
+  
+public class JoinD implements Runnable {
+    public void run()
+    {
+        Thread t = Thread.currentThread();
+        System.out.println("Current thread: "
+                           + t.getName());
+  
+        // checks if current thread is alive
+        System.out.println("Is Alive? " + t.isAlive());
+    }
+  
+    public static void main(String args[]) throws Exception
+    {
+        Thread t = new Thread(new JoinDemo());
+        t.start();
+  
+        // Waits for 1000ms this thread to die.
+        t.join(1000);
+  
+        System.out.println("\nJoining after 1000"
+                           + " milliseconds: \n");
+        System.out.println("Current thread: "
+                           + t.getName());
+  
+        // Checks if this thread is alive
+        System.out.println("Is alive? " + t.isAlive());
+    }
+}
+

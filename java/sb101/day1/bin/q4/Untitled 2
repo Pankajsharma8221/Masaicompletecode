@@ -1,0 +1,31 @@
+The hava generics programing is introduced in J2SE 5 to deal with type-safe objects . It makes the code stable by detecting the bugs at compile time.
+
+advantage of generics :
+Type safety.
+Type casting is not required.
+Compile time checking
+
+here is the example 
+class MyGen<T>{
+T obj;
+void add(T obj){
+this.obj=obj;
+}
+T get(){
+return obj;
+}
+}
+//Main.java
+public class Main {
+public static void main(String[] args) {
+MyGen<String> gen1 = new MyGen();
+gen1.add("Hello");
+System.out.println(gen1.get());
+MyGen<Integer> gen2 = new MyGen();
+gen2.add(20);
+System.out.println(gen2.get());
+MyGen<Student> gen3 = new MyGen();
+gen3.add(new Student(10,"Amit",780));
+System.out.println(gen3.get().getName());
+}
+}

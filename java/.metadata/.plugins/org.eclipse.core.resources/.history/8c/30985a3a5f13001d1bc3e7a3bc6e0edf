@@ -1,0 +1,28 @@
+package com.lion;
+//import java.lang.*;
+
+public class Java {
+	int n;
+
+	void Whole() {
+
+		if (n % 2 != 0) {
+			System.out.println(n);
+		} else if (n % 2 == 0) {
+			int a = (int)Math.floor(n / 10);
+
+			System.out.println((a + 1) * 10);
+		} else {
+			System.out.println("Error");
+		}
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Java ready = new Java();
+		ready.n = 82;
+		ready.Whole();
+	}
+
+}

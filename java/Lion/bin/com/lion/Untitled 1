@@ -1,0 +1,6 @@
+A static method is a method that belongs to a class, but it does not belong to an instance of that class and this method can be called without the instance or object of that class.
+ Every method in java defaults to a non-static method without static keyword preceding it.
+  Non-static methods can access any static method and static variable, without creating an instance of the object. 
+A static method can only access static data members and static methods of another class or same class but cannot access non-static methods and variables.
+Also, a static method can rewrite the values of any static data member.
+A non-static method can access static data members and static methods as well as non-static members and methods of another class or same class, also can change the values of any static data member

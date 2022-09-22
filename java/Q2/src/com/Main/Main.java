@@ -1,0 +1,11 @@
+package com.Main;
+// this is last question  of the evaluation
+public class Main {
+public static void runScored(int one,int two,int three,int four,int six) {
+	int sum=one*1+two*2+three*3+four*4+six*6;
+			System.out.println(sum);
+}
+public static void main(String[] args) {
+	runScored(2,2,3,4,5);
+}
+}

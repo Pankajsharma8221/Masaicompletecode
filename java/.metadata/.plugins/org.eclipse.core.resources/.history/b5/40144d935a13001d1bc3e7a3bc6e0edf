@@ -1,0 +1,14 @@
+package com.lion;
+
+public class Q4 {
+	
+	void Whole() {
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

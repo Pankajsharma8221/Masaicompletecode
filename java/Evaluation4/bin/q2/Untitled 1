@@ -1,0 +1,15 @@
+hashcode method return the same hash value when called on two objects, which are equals() methods. And if the objects are unequal, it usually return difference hash value.
+
+equal is the method of jav.lang it is used to compare two objects.
+it compare two projects that whether they are same, it compares the values of both the objects's attributes.
+Two objects are same when they stored in same memory location.
+
+if two objects are the same as per the equals methodm then if we call the hashcode methos on each of the two , must provide same integer result.
+
+if for 2 oobjects equal will returns true then their hashcode value should the sma value for both of the objects.
+there aree three cases for override equals and hashcode method inside our classes are
+
+1. whenver we try to make our objects logically equal.
+2. whenver we try to add our objects inside the hashset or linkedHashset class.
+3. whenever we try to add our object as a key inside the hashmap class.
+ 

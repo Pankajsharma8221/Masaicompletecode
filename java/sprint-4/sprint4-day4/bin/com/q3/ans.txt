@@ -1,0 +1,17 @@
+Explain the difference between comparable and comparator.
+
+1. Comparable 
+A comparable object is capable of comparing itself with another object.
+The class itself must implements the java.lang.Comparable interface to
+compare its instances. Consider a Movie class that has members like,
+rating, name, year. Suppose we wish to sort a list of Movies based
+on year of release. We can implement the Comparable interface with
+the Movie class, and we override the method compareTo() of Comparable interface. 
+
+2. Comparator
+
+Unlike Comparable, Comparator is external to the element type we are comparing.
+It’s a separate class. We create multiple separate classes (that implement Comparator)
+to compare by different members.Collections class has a second sort() method and
+it takes Comparator. The sort() method invokes the compare() to sort objects.
+To compare movies by Rating, we need to do 3 things : 

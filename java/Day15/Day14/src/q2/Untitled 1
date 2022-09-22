@@ -1,0 +1,20 @@
+
+Array are linear data structure providing functionality to add elements in a continuous manner in memory address space.
+Arraylis is a class belonggin to the collection framework
+
+
+method of creating array is simple fixed-sized arrays , Dynamically sized arrays.
+it can be further divided in two types declaring and initializing at the same time.
+Declaring than intializing element later.
+
+
+Type array_name = { Element1, Element2, Element3, Element4,...., ElementN } ;
+
+array declaration in same line
+
+int[] arr-new int[100]
+second way
+
+
+here the arraylist
+Arraylist<Type > a= new ArrayList<Type>();

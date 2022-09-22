@@ -1,0 +1,8 @@
+What is the difference between ArrayList and Array?
+
+. Array 
+1. It can be single-dimensional or multidimensional 
+2. For and for each generally is used for iterating over arrays 
+3. length keyword can give the total size of the array.
+4. It is static and of fixed length.
+5. It is faster as above we see it of fixed size
